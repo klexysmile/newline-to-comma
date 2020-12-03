@@ -15,12 +15,12 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  /*min-height: 100vh;*/
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(2px + 1vmin);
   color: white;
 }
 
@@ -36,3 +36,52 @@
     transform: rotate(360deg);
   }
 }
+.App-body {
+  display: flex;
+  flex-direction: row;
+  align-content: space-evenly;
+  justify-content: center;
+}
+
+.divider {
+  min-height: 5vh;
+}
+
+.textarea-box {
+  width: 300px;
+  height: 500px;
+  padding: 5px;
+}
+
+.options-holder {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  padding: 5px;
+}
+
+.output-box {
+  border: 1px solid gray;
+  overflow: auto;
+}
+
+.red-button {
+  border-radius: 3px;
+  background: firebrick;
+  color: white;
+  height: 35px;
+  text-align: center;
+}
+
+
+.white-button {
+  border-radius: 3px;
+  background: #ffffff;
+  border: 1px solid dimgrey;
+  color: #370d00;
+  height: 35px;
+  text-align: center;
+}
+
